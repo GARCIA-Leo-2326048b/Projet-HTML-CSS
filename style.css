@@ -28,3 +28,12 @@ nav li {
     display: inline; /* Affichage en ligne pour les éléments de liste */
     margin-right: 10px; /* Marge à droite pour espacer les éléments */
 }
+footer {
+    background-color: #0d1220; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Centre le texte horizontalement */
+    padding: 1em; /* Espacement intérieur */
+    position: relative; /* Position relative pour s'ajuster au bas de la page */
+    bottom: 0; /* Alignement au bas de la page */
+    width: 100%; /* Pleine largeur */
+}
