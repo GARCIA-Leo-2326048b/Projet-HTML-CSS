@@ -1,10 +1,30 @@
 header {
-    text-align: center;
+    background-color: #0d1220; /* Couleur de fond de l'en-tête */
+    color: white; /* Couleur du texte dans l'en-tête */
+    text-align: center; /* Centre le texte horizontalement */
+    font-family: 'Blooming Elegant', sans-serif; /* Police de caractères pour l'en-tête */
+    font-weight: bold; /* Poids de la police */
+    width: 100%; /* Pleine largeur */
+    margin: auto; /* Centre l'en-tête horizontalement */
 }
 
-h1 {
-    text-align: center;
+/* Style optionnel pour la barre de navigation */
+nav {
+    display: inline-block; /* Permet de centrer la barre horizontalement */
 }
-#home  {
-    background-color: blue;
+
+/* Style optionnel pour les liens de navigation */
+nav a {
+    font-family: 'Blooming Elegant', sans-serif; /* Police de caractères pour les liens */
+    font-weight: bold; /* Poids de la police */
+    text-decoration: none; /* Pas de soulignement pour les liens */
+    color: white; /* Couleur du texte pour les liens */
+    margin: 15px; /* Espacement entre les liens */
+    font-size: 24px; /* Taille de la police */
+}
+
+/* Styles pour chaque élément de la liste dans la barre de navigation */
+nav li {
+    display: inline; /* Affichage en ligne pour les éléments de liste */
+    margin-right: 10px; /* Marge à droite pour espacer les éléments */
 }
