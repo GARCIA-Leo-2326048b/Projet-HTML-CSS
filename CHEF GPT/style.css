@@ -19,7 +19,7 @@ nav li {
     margin-right: 10px;
 }
   
-nav a {
+header a {
     text-decoration: none; /* pas de soulignement */
     color: #fff;
 }
