@@ -1,0 +1,35 @@
+header {
+    background-color: #0d1220; /* Couleur de fond de l'en-tête */
+    color: white; /* Couleur du texte dans l'en-tête */
+    text-align: center; /* Centre le texte horizontalement */
+    font-family: 'Blooming Elegant', sans-serif; /* Police de caractères pour l'en-tête */
+    font-weight: bold; /* Poids de la police */
+    width: 100%; /* Pleine largeur */
+    margin: auto; /* Centre l'en-tête horizontalement */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+nav a {
+    text-decoration: none; /* pas de soulignement */
+    color: #fff;
+}
+
+footer {
+    background-color: #0d1220; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Centre le texte horizontalement */
+    padding: 1em; /* Espacement intérieur */
+    position: relative; /* Position relative pour s'ajuster au bas de la page */
+    bottom: 0; /* Alignement au bas de la page */
+    width: 100%; /* Pleine largeur */
+}
