@@ -1,17 +1,28 @@
 header {
-    background-color: #d67f15; /* Couleur de fond de l'en-tête */
-    color: white; /* Couleur du texte dans l'en-tête */
-    text-align: center; /* Centre le texte horizontalement */
-    font-family: 'Blooming Elegant', sans-serif; /* Police de caractères pour l'en-tête */
-    font-weight: bold; /* Poids de la police */
-    width: 100%; /* Pleine largeur */
-    margin: auto; /* Centre l'en-tête horizontalement */
+    background-color: #e89362; 
+    color: white; 
+    text-align: center; 
+    font-family: 'Blooming Elegant', sans-serif; 
+    font-weight: bold; 
+    width: 100%; 
+    margin: auto;
+    
+}
+
+header h1{
+  font-size: 4.5em;
+}
+
+header li {
+  font-size: 1.55em;
 }
 
 header a {
-  text-decoration: none; /* pas de soulignement */
+  text-decoration: none;
   color: #fff;
 }
+
+
 
 nav ul {
   list-style: none;
@@ -28,7 +39,7 @@ nav a {
   display: block;
   color: white;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 0.66em 1em;
 }
 
 nav ul ul {
@@ -36,7 +47,7 @@ nav ul ul {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #333;
+  background-color: #e9a781;
 }
 
 nav ul li:hover > ul {
@@ -44,10 +55,14 @@ nav ul li:hover > ul {
 }
 
 nav ul ul li {
-  width: 200px;
+  width: 14em;
   float: none;
   display: list-item;
   position: relative;
+}
+
+nav ul li ul li {
+  font-size: 0.75em;
 }
 
 nav ul {
@@ -60,28 +75,58 @@ nav li {
     display: inline-block;
     margin-right: 10px;
 }
+
+
+
+
+
+
+
 body {
-      /* Définissez la taille de l'image et le fond d'écran */
       background: url('Data_CHEF_GPT/fond_CHEF_GPT.png') no-repeat center center fixed;
       background-size: cover;
   
-      /* Définissez la hauteur du conteneur pour couvrir toute la page */
-      height: 100vh;
-  
-      /* Autres styles de votre choix */
-      color: #000000; /* Couleur du texte, changez selon vos besoins */
+      height: 3em;
+
+      color: #000000;
       font-family: Arial, sans-serif;
+      font-size: 1em;
       text-align: center;
-      padding: 20px;
+      padding: 3em;
 }
+
+
+
+
+
+#Home {
+  background-color: #FAEBD7	; /* Couleur de fond */
+}
+
+#Home h2 {
+  font-size: 2.60em;
+}
+
+#Home h3 {
+  font-size: 1.45em;
+}
+
+#Home a {
+  text-decoration: none; /* pas de soulignement */
+  color: #000000;
+}
+
+
+
 
 
 footer {
-    background-color: #d67f15; /* Couleur de fond */
-    color: #fff; /* Couleur du texte */
-    text-align: center; /* Centre le texte horizontalement */
-    padding: 1em; /* Espacement intérieur */
-    position: relative; /* Position relative pour s'ajuster au bas de la page */
-    bottom: 0; /* Alignement au bas de la page */
-    width: 100%; /* Pleine largeur */
+    background-color: #e89362;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;   
 }
+
+
