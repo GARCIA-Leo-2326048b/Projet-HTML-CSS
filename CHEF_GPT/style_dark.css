@@ -1,5 +1,5 @@
 header {
-    background-color: #e89362; 
+    background-color: #2f2f2f; 
     color: white; 
     text-align: center; 
     font-family: 'Blooming Elegant', sans-serif; 
@@ -47,7 +47,7 @@ nav ul ul {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #e9a781;
+  background-color: #2f2f2f;
 }
 
 nav ul li:hover > ul {
@@ -83,12 +83,12 @@ nav li {
 
 
 body {
-      background: url('Data_CHEF_GPT/fond_CHEF_GPT.png') no-repeat center center fixed;
+      background: url('Data_CHEF_GPT/fond_chefgpt_dark.png') no-repeat center center fixed;
       background-size: cover;
   
       height: 3em;
 
-      color: #000000;
+      color: #ffffff;
       font-family: Arial, sans-serif;
       font-size: 1em;
       text-align: center;
@@ -100,7 +100,7 @@ body {
 
 
 #Home {
-  background-color: #FAEBD7	; /* Couleur de fond */
+  background-color: #4f4f4f	; /* Couleur de fond */
 }
 
 #Home h2 {
@@ -113,7 +113,7 @@ body {
 
 #Home a {
   text-decoration: none; /* pas de soulignement */
-  color: #000000;
+  color: #ffffff;
 }
 
 
@@ -121,10 +121,12 @@ body {
 
 
 footer {
-    background-color: #e89362;
+    background-color: #2f2f2f;
     color: #fff;
     text-align: center;
     padding: 1em;
     bottom: 0;
-    width: 100%;
+    width: 100%;   
 }
+
+
