@@ -54,7 +54,27 @@
         </video>
         
     </section>
-   
+    <section id="Form">
+        <form action="mailto:yosrisoua@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="rating">Évaluation :</label>
+            <select id="rating" name="rating" required>
+              <option value="excellent">Excellent</option>
+              <option value="good">Bon</option>
+              <option value="average">Moyen</option>
+              <option value="poor">Mauvais</option>
+            </select>
+            <label for="comment">Commentaire :</label>
+            <textarea id="comment" name="comment" rows="3" required></textarea>
+            <br>
+            <button type="submit">Envoyer</button>
+          </form>
+    </section>
 
     <footer>
         <h4>&copy; 2023 Chef GPT. All rights reserved.</h4>
