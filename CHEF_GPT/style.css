@@ -9,11 +9,11 @@ header {
 }
 
 header h1{
-  font-size: 4em;
+  font-size: 70px;
 }
 
 header li {
-  font-size: 1.5em;
+  font-size: 28px;
 }
 
 header a {
@@ -21,16 +21,11 @@ header a {
   color: #fff;
 }
 
-nav {
-  display: inline-block; /* Pour éviter une largeur de 100% dans le mode "block" */
-}
 nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: inline-block; /* Pour éviter une largeur de 100% dans le mode "block" */
 }
-
 nav ul li {
   display: inline-block;
   position: relative;
@@ -41,7 +36,7 @@ nav a {
   display: block;
   color: white;
   text-decoration: none;
-  padding: 0.66em 1em;
+  padding: 10.56px 16px;
 }
 
 nav ul ul {
@@ -79,15 +74,20 @@ nav li {
 }
 
 body {
+<<<<<<< Updated upstream
   display: block;
   align-items: center;
   background: url('Data_CHEF_GPT/fond_CHEF_GPT.webp') no-repeat center center fixed;
+=======
+  background: url('Data_CHEF_GPT/fond_CHEF_GPT.png') no-repeat center center fixed;
+>>>>>>> Stashed changes
   background-size: cover;
+  height: 3em;
   color: #000000;
   font-family: Arial, sans-serif;
+  font-size: 1em;
   text-align: center;
   padding: 3em;
-  margin: 0;
 }
 
 #Home {
@@ -95,11 +95,11 @@ body {
 }
 
 #Home h2 {
-  font-size: 2.60em;
+  font-size: 41px;
 }
 
 #Home h3 {
-  font-size: 24px;
+  font-size: 23px;
 }
 
 #Home a {
@@ -113,7 +113,7 @@ form {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 500px;
+  width: 600px;
 }
 
 label {
@@ -146,11 +146,12 @@ footer {
     background-color: #e89362;
     color: #fff;
     text-align: center;
+    margin-top: 30px;  /*decoller le footer de section*/
     padding: 1em;
-    bottom: 0;
     width: 100%;
 }
 
+<<<<<<< Updated upstream
 video {
   width: 90%;
   height: auto;
@@ -162,12 +163,15 @@ img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+=======
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+>>>>>>> Stashed changes
   header h1 {
-    font-size: 3em;
+    font-size: 60px;
   }
   
   header li {
-    font-size: 1em;
+    font-size: 16px;
   }
   
   header a {
@@ -175,11 +179,11 @@ img {
   }
   
   #Home h2 {
-    font-size: 2em;
+    font-size: 20px;
   }
   
   #Home h3 {
-    font-size: 12px;
+    font-size: 16px;
   }
 
 form {
@@ -188,22 +192,34 @@ form {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  width: 500px;
+}
+footer {
+  background-color: #e89362;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;  /*decoller le footer de section*/
+  padding: 1em;
+  width: 100%;
 }
 }
-@media screen and (min-width: 800px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   section video {
     width: 90%;
     height: auto;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  nav li {
+    display: inline-block;
+    margin-right: 0px;
+  }
   header h1 {
-    font-size: 2em;
+    font-size: 50px;
   }
   
   header li {
-    font-size: 1.0em;
+    font-size: 14px;
   }
   
   header a {
@@ -211,11 +227,15 @@ form {
   }
   
   #Home h2 {
-    font-size: 1.5em;
+    font-size: 14px;
   }
   
   #Home h3 {
+<<<<<<< Updated upstream
     font-size: 12px;
+=======
+    font-size: 10px;
+>>>>>>> Stashed changes
   }
 
 form {
@@ -226,6 +246,7 @@ form {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 250px;
 }
+<<<<<<< Updated upstream
 }
 @media screen and (max-width: 800px) {
   section video {
@@ -262,34 +283,50 @@ form {
   margin-right: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 200px;
+=======
+footer {
+  background-color: #e89362;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;  /*decoller le footer de section*/
+  padding: 1em;
+  width: 100%;
+>>>>>>> Stashed changes
 }
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
   section video {
     width: 90%;
     height: auto;
   }
 }
-
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 425px) {
+  nav li {
+    display: inline-block;
+    margin-right: 0px;
+  }
   header h1 {
-    font-size: 1em;
+    font-size: 40px;
   }
   
   header li {
-    font-size: 0.5em;
+    font-size: 8px;
   }
   
   header a {
-    font-size: 0.5em;
+    font-size: 0.8em;
   }
   
   #Home h2 {
-    font-size: 1em;
+    font-size: 12px;
   }
   
   #Home h3 {
+<<<<<<< Updated upstream
     font-size: 12px;
+=======
+    font-size: 8px;
+>>>>>>> Stashed changes
   }
 
 form {
@@ -298,10 +335,18 @@ form {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 200px;
+  width: 150px;
+}
+footer {
+  background-color: #e89362;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;  /*decoller le footer de section*/
+  padding: 1em;
+  width: 100%;
 }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 425px) {
   section video {
     width: 90%;
     height: auto;

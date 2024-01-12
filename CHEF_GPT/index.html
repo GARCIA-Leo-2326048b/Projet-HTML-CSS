@@ -54,11 +54,9 @@
             <source src="Data_CHEF_GPT/Video_chef_gpt/Régime_zen-dessert_diététique_Carpaccio_de_kiwi_aux_pommes_Granny.mp4" type="video/mp4" >
             <track label="Français" kind="subtitles" srclang="fr" src="Data_CHEF_GPT/Video_chef_gpt/Data_CHEF_GPT/Video_chef_gpt/Régime_zen-dessert_diététique_Carpaccio_de_kiwi_aux_pommes_Granny_French_auto-generated_DownloadYoutubeSubtitles.com.vtt" default>
         </video>
-    </section>
 
-    <section id="Form">
             <h2>Formulaire d'Avis :</h2>
-            
+
             <form action="mailto:ChefGPT@gmail.com" method="post" enctype="text/plain">
             
             <label for="name">Nom :</label>
@@ -67,18 +65,20 @@
             <label for="email">Email :</label>
             <input type="email" id="email" name="email" required>
         
-            <label for="rating">Évaluation :</label>
-            
-            <select id="rating" name="rating" required>
+            <label for="avis">Évaluation :</label>            
+            <select id="avis" name="avis" required>
               <option value="" disabled selected hidden>Sélectionnez une évaluation</option>
               <option value="excellent">Excellent</option>
-              <option value="good">Bon</option>
-              <option value="average">Moyen</option>
-              <option value="poor">Mauvais</option>
+              <option value="bon">Bon</option>
+              <option value="moyen">Moyen</option>
+              <option value="mauvais">Mauvais</option>
             </select>
+
             <label for="comment">Commentaire :</label>
             <textarea id="comment" name="comment" rows="3" required></textarea>
+
             <br>
+
             <button type="submit">Envoyer</button>
             </form>
     </section>

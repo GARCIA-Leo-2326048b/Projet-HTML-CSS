@@ -10,19 +10,17 @@ header {
 }
 
 header h1{
-  font-size: 4.5em;
+  font-size: 70px;
 }
 
 header li {
-  font-size: 1.55em;
+  font-size: 28px;
 }
 
 header a {
   text-decoration: none;
   color: #fff;
 }
-
-
 
 nav ul {
   list-style: none;
@@ -39,7 +37,7 @@ nav a {
   display: block;
   color: white;
   text-decoration: none;
-  padding: 0.66em 1em;
+  padding: 10.56px 16px;
 }
 
 nav ul ul {
@@ -62,7 +60,7 @@ nav ul ul li {
 }
 
 nav ul li ul li {
-  font-size: 0.75em;
+  font-size: 12px;
 }
 
 nav ul {
@@ -78,14 +76,12 @@ nav li {
 body {
       background: url('Data_CHEF_GPT/fond_chefgpt_dark.webp') no-repeat center center fixed;
       background-size: cover;
-  
-      height: 3em;
-
+      height: 48px;
       color: #ffffff;
       font-family: Arial, sans-serif;
       font-size: 1em;
       text-align: center;
-      padding: 3em;
+      padding: 48px;
 }
 
 #Home {
@@ -93,11 +89,11 @@ body {
 }
 
 #Home h2 {
-  font-size: 2.60em;
+  font-size: 41px;
 }
 
 #Home h3 {
-  font-size: 1.45em;
+  font-size: 23px;
 }
 
 #Home a {
@@ -114,7 +110,7 @@ form {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  width: 600px;
 }
 
 label {
@@ -149,7 +145,142 @@ footer {
     text-align: center;
     padding: 1em;
     bottom: 0;
-    width: 100%;   
+    width: 100%; 
+    margin-top: 30px;  
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header h1 {
+    font-size: 60px;
+  }
+  
+  header li {
+    font-size: 16px;
+  }
+  
+  header a {
+    font-size: 1em;
+  }
+  
+  #Home h2 {
+    font-size: 20px;
+  }
+  
+  #Home h3 {
+    font-size: 16px;
+  }
 
+form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+footer {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;  /*decoller le footer de section*/
+  padding: 1em;
+  width: 100%;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  section video {
+    width: 90%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  nav li {
+    display: inline-block;
+    margin-right: 0px;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+  
+  header li {
+    font-size: 14px;
+  }
+  
+  header a {
+    font-size: 0.8em;
+  }
+  
+  #Home h2 {
+    font-size: 14px;
+  }
+  
+  #Home h3 {
+    font-size: 10px;
+  }
 
+form {
+  background-color: #FAEBD7;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+footer {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;  /*decoller le footer de section*/
+  padding: 1em;
+  width: 100%;
+}
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  section video {
+    width: 90%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  nav li {
+    display: inline-block;
+    margin-right: 0px;
+  }
+  header h1 {
+    font-size: 40px;
+  }
+  
+  header li {
+    font-size: 8px;
+  }
+  
+  header a {
+    font-size: 0.8em;
+  }
+  
+  #Home h2 {
+    font-size: 12px;
+  }
+  
+  #Home h3 {
+    font-size: 8px;
+  }
+
+form {
+  background-color: #FAEBD7;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 150px;
+}
+footer {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;  /*decoller le footer de section*/
+  padding: 1em;
+  width: 100%;
+}
+}
+@media screen and (max-width: 425px) {
+  section video {
+    width: 90%;
+    height: auto;
+  }
+}
