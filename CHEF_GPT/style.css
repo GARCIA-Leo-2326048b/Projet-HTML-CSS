@@ -156,6 +156,11 @@ video {
   height: auto;
 }
 
+img {
+  width: 50%;
+  height: auto;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   header h1 {
     font-size: 3em;
