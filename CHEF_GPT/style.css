@@ -74,20 +74,14 @@ nav li {
 }
 
 body {
-<<<<<<< Updated upstream
-  display: block;
-  align-items: center;
   background: url('Data_CHEF_GPT/fond_CHEF_GPT.webp') no-repeat center center fixed;
-=======
-  background: url('Data_CHEF_GPT/fond_CHEF_GPT.png') no-repeat center center fixed;
->>>>>>> Stashed changes
   background-size: cover;
-  height: 3em;
+  height: 48px;
   color: #000000;
   font-family: Arial, sans-serif;
   font-size: 1em;
   text-align: center;
-  padding: 3em;
+  padding: 48px;
 }
 
 #Home {
@@ -151,7 +145,6 @@ footer {
     width: 100%;
 }
 
-<<<<<<< Updated upstream
 video {
   width: 90%;
   height: auto;
@@ -161,17 +154,13 @@ img {
   width: 50%;
   height: auto;
 }
-
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-=======
-@media screen and (min-width: 768px) and (max-width: 1024px) {
->>>>>>> Stashed changes
   header h1 {
-    font-size: 60px;
+    font-size: 70px;
   }
   
   header li {
-    font-size: 16px;
+    font-size: 1em;
   }
   
   header a {
@@ -192,34 +181,22 @@ form {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 500px;
-}
-footer {
-  background-color: #e89362;
-  color: #fff;
-  text-align: center;
-  margin-top: 30px;  /*decoller le footer de section*/
-  padding: 1em;
-  width: 100%;
+  width: 300px;
 }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 800px) and (max-width: 1200px) {
   section video {
     width: 90%;
     height: auto;
   }
 }
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  nav li {
-    display: inline-block;
-    margin-right: 0px;
-  }
+@media screen and (max-width: 800px) {
   header h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
   
   header li {
-    font-size: 14px;
+    font-size: 1.0em;
   }
   
   header a {
@@ -227,15 +204,11 @@ footer {
   }
   
   #Home h2 {
-    font-size: 14px;
+    font-size: 18px;
   }
   
   #Home h3 {
-<<<<<<< Updated upstream
-    font-size: 12px;
-=======
-    font-size: 10px;
->>>>>>> Stashed changes
+    font-size: 14px;
   }
 
 form {
@@ -246,7 +219,6 @@ form {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 250px;
 }
-<<<<<<< Updated upstream
 }
 @media screen and (max-width: 800px) {
   section video {
@@ -255,21 +227,21 @@ form {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 620px) {
   header h1 {
-    font-size: 1.5em;
+    font-size: 60px;
   }
   
   header li {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   
   header a {
-    font-size: 0.5em;
+    font-size: 0.7em;
   }
   
   #Home h2 {
-    font-size: 1.2em;
+    font-size: 16px;
   }
   
   #Home h3 {
@@ -283,70 +255,113 @@ form {
   margin-right: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 200px;
-=======
-footer {
-  background-color: #e89362;
-  color: #fff;
-  text-align: center;
-  margin-top: 30px;  /*decoller le footer de section*/
-  padding: 1em;
-  width: 100%;
->>>>>>> Stashed changes
 }
 }
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (max-width: 620px) {
   section video {
     width: 90%;
     height: auto;
   }
 }
-@media screen and (max-width: 425px) {
-  nav li {
-    display: inline-block;
-    margin-right: 0px;
-  }
+
+@media screen and (max-width: 580px) {
   header h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
   
   header li {
-    font-size: 8px;
-  }
-  
-  header a {
     font-size: 0.8em;
   }
   
+  header a {
+    font-size: 0.6em;
+  }
+  
   #Home h2 {
-    font-size: 12px;
+    font-size: 14px;
   }
   
   #Home h3 {
-<<<<<<< Updated upstream
-    font-size: 12px;
-=======
-    font-size: 8px;
->>>>>>> Stashed changes
+    font-size: 10px;
   }
 
 form {
   background-color: #FAEBD7;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 150px;
-}
-footer {
-  background-color: #e89362;
-  color: #fff;
-  text-align: center;
-  margin-top: 30px;  /*decoller le footer de section*/
-  padding: 1em;
-  width: 100%;
+  width: 200px;
 }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 580px) {
+  section video {
+    width: 90%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 441px) {
+  header h1 {
+    font-size: 40px;
+  }
+  
+  header li {
+    font-size: 0.5em;
+  }
+  
+  header a {
+    font-size: 0.3em;
+  }
+  
+  #Home h2 {
+    font-size: 14px;
+  }
+  
+  #Home h3 {
+    font-size: 8px;
+  }
+
+  form {
+    background-color: #FAEBD7;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+}
+@media screen and (max-width: 441px) {
+  section video {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  header h1 {
+    font-size: 60px;
+  }
+  
+  header li {
+    font-size: 0.3em;
+  }
+  
+  header a {
+    font-size: 0.2em;
+  }
+  
+  #Home h2 {
+    font-size: 14px;
+  }
+  
+  #Home h3 {
+    font-size: 6px;
+  }
+
+  form {
+    background-color: #FAEBD7;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+}
+@media screen and (max-width: 340px) {
   section video {
     width: 90%;
     height: auto;
