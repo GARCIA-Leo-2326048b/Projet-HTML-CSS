@@ -84,6 +84,11 @@ body {
   padding: 48px;
 }
 
+img {
+  width: 50%;
+  height: auto;
+}
+
 #Home {
   background-color: #FAEBD7	; /* Couleur de fond */
 }

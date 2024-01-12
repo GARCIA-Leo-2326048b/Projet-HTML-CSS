@@ -138,6 +138,10 @@ button:hover {
   background-color: #2f2f2f;
 }
 
+img {
+  width: 50%;
+  height: auto;
+}
 
 footer {
     background-color: #2f2f2f;
@@ -212,7 +216,7 @@ footer {
   }
   
   #Home h3 {
-    font-size: 10px;
+    font-size: 12px;
   }
 
 form {
@@ -247,7 +251,7 @@ footer {
   }
   
   header li {
-    font-size: 8px;
+    font-size: 12px;
   }
   
   header a {
@@ -259,7 +263,7 @@ footer {
   }
   
   #Home h3 {
-    font-size: 8px;
+    font-size: 12px;
   }
 
 form {
