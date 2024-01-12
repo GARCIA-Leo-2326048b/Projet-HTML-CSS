@@ -75,13 +75,6 @@ nav li {
     display: inline-block;
     margin-right: 10px;
 }
-
-
-
-
-
-
-
 body {
       background: url('Data_CHEF_GPT/fond_chefgpt_dark.png') no-repeat center center fixed;
       background-size: cover;
@@ -94,10 +87,6 @@ body {
       text-align: center;
       padding: 3em;
 }
-
-
-
-
 
 #Home {
   background-color: #4f4f4f	; /* Couleur de fond */

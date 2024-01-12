@@ -50,13 +50,16 @@
         <h2>Vidéo d'une recette : </h2>
 
         <video width="1000" height="500" controls>
-            <source src="Data_CHEF_GPT/Video_chef_gpt/Régime zen - dessert diététique  Carpaccio de kiwi aux pommes Granny.mp4" type="video/mp4" >
-            <track label="Français" kind="subtitles" srclang="fr" src="Data_CHEF_GPT/Video_chef_gpt/Régime zen - dessert diététique Carpaccio de kiwi aux pommes Granny [French (auto-generated)] [DownloadYoutubeSubtitles.com].vtt" default>
+            <source src="Data_CHEF_GPT/Video_chef_gpt/Régime_zen-dessert_diététique_Carpaccio_de_kiwi_aux_pommes_Granny.mp4" type="video/mp4" >
+            <track label="Français" kind="subtitles" srclang="fr" src="Data_CHEF_GPT/Video_chef_gpt/Data_CHEF_GPT/Video_chef_gpt/Régime_zen-dessert_diététique_Carpaccio_de_kiwi_aux_pommes_Granny_French_auto-generated_DownloadYoutubeSubtitles.com.vtt" default>
         </video>
     </section>
 
     <section id="Form">
-        <form action="mailto:ChefGPT@gmail.com" method="post" enctype="text/plain">
+            <h2>Formulaire d'Avis :</h2>
+            
+            <form action="mailto:ChefGPT@gmail.com" method="post" enctype="text/plain">
+            
             <label for="name">Nom :</label>
             <input type="text" id="name" name="name" required>
         
@@ -64,7 +67,9 @@
             <input type="email" id="email" name="email" required>
         
             <label for="rating">Évaluation :</label>
+            
             <select id="rating" name="rating" required>
+              <option value="" disabled selected hidden>Sélectionnez une évaluation</option>
               <option value="excellent">Excellent</option>
               <option value="good">Bon</option>
               <option value="average">Moyen</option>
@@ -74,7 +79,7 @@
             <textarea id="comment" name="comment" rows="3" required></textarea>
             <br>
             <button type="submit">Envoyer</button>
-          </form>
+            </form>
     </section>
 
     <footer>
