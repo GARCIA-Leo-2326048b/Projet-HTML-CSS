@@ -1,12 +1,11 @@
 header {
-    background-color: #e89362; 
-    color: white; 
-    text-align: center; 
-    font-family: 'Blooming Elegant', sans-serif; 
-    font-weight: bold; 
-    width: 100%; 
-    margin: auto;
-    
+  background-color: #e89362;
+  color: white;
+  text-align: center;
+  font-family: 'Blooming Elegant', sans-serif;
+  font-weight: bold;
+  width: 100%;
+  margin: auto;
 }
 
 header h1{
@@ -14,7 +13,7 @@ header h1{
 }
 
 header li {
-  font-size: 1.55em;
+  font-size: 1.60em;
 }
 
 header a {
@@ -22,16 +21,21 @@ header a {
   color: #fff;
 }
 
+nav {
+  display: inline-block; /* Pour éviter une largeur de 100% dans le mode "block" */
+}
 nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: inline-block; /* Pour éviter une largeur de 100% dans le mode "block" */
 }
 
 nav ul li {
   display: inline-block;
   position: relative;
 }
+
 
 nav a {
   display: block;
@@ -75,14 +79,17 @@ nav li {
 }
 
 body {
-      background: url('Data_CHEF_GPT/fond_CHEF_GPT.png') no-repeat center center fixed;
-      background-size: cover;  
-      height: 3em;
-      color: #000000;
-      font-family: Arial, sans-serif;
-      font-size: 1em;
-      text-align: center;
-      padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('Data_CHEF_GPT/fond_CHEF_GPT.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  padding: 3em;
+  margin: 0;
 }
 
 #Home {
@@ -94,7 +101,7 @@ body {
 }
 
 #Home h3 {
-  font-size: 23px;
+  font-size: 24px;
 }
 
 #Home a {
@@ -148,9 +155,47 @@ footer {
 }
 
 
-@media only screen and (max-width: 960px) {
-  #Home h3 {
-    font-size: 10px;
+@media only screen and (max-width: 768px) {
+  header nav ul {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header nav ul li {
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+  }
+
+  header nav ul ul {
+    text-align: center;
+    position: static;
+    background-color: inherit;
+  }
+  header h1 {
+    font-size: 3.5em;
+  }
+  
+  header li {
+    font-size: 1.2em;
+  }
+  
+  header a {
+    font-size: 1em;
+  }
+  
+  #Home h2 {
+    font-size: 2em;
+  }
+  
+  #Home h3 {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  section video {
+    width: 100%;
+    height: auto;
   }
 }
